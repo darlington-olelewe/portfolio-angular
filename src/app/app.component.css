@@ -1,0 +1,11 @@
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures the layout fills the viewport height */
+}
+.after-tool-bar{
+  flex: 1;
+  overflow: auto;
+  background-color: pink;
+}
+

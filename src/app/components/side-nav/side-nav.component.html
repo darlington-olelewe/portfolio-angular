@@ -1,0 +1,26 @@
+<mat-sidenav-container>
+  <mat-sidenav mode="side" opened>
+    <ul>
+      <li>About me</li>
+      <li>Project</li>
+      <li>Updates</li>
+    </ul>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <ng-content></ng-content>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
+<div style="display: flex; height: 100%; border: solid 1px green" >
+  <div style="background-color: black; color: white; height: 100%">
+    <ul>
+      <li>About me</li>
+      <li>Project</li>
+      <li>Updates</li>
+    </ul>
+  </div>
+  <div>
+    <ng-content>
+    </ng-content>
+  </div>
+</div>
